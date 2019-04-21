@@ -97,7 +97,7 @@ video#header-bg {
 
 #main {
   /* background: linear-gradient(135deg, rgba(155, 29, 21, .6) 0%, rgba(22, 31, 53, .6) 50%); */
-  background: radial-gradient(ellipse at center, rgba(53, 66, 42, 0.986) 0%,rgba(57, 58, 0, 0.979) 90%);
+  background: radial-gradient(ellipse at center, #E6BBAD 0%,rgb(85, 80, 45) 90%);
   padding: 0px 30px;
 }
 
