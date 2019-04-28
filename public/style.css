@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Futura";
+  font-family: 'Futura',Verdana, sans-serif;
   /* src: url('fonts/GothamRounded-Book.eot');
   src: url('fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'), url('fonts/GothamRounded-Book.woff') format('woff'), url('fonts/GothamRounded-Book.ttf') format('truetype');*/
   font-weight: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Futura';
+  font-family: 'Futura', Verdana, sans-serif;
   /* src: url('fonts/GothamRounded-Medium.eot');
   src: url('fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/GothamRounded-Medium.woff') format('woff'), url('fonts/GothamRounded-Medium.ttf') format('truetype');*/
   font-weight: 500; 
@@ -18,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   background: #000;
-  font: 18px 'Gotham Rounded Book', sans-serif;
+  font: 18px 'Futura', Verdana, sans-serif;
   /* color: #FFFFB0; */
   color:lightblue;
   line-height: 150%;
@@ -72,6 +72,11 @@ video#header-bg {
   width: 100%;
   /* -webkit-filter: drop-shadow(0px 0px 10px rgba(0,200,219,.9)); */
   -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 172, 255, .4));
+}
+
+#tagline{
+  text-align: center;
+  text
 }
 
 .page {
