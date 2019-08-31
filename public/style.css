@@ -87,6 +87,14 @@ video#header-bg {
   border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 
+#talk{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #header {
   height: 100%;
   display: flex;
